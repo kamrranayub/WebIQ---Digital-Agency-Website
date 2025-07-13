@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work | WEBIQ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    
+    <nav class="work-nav">  
+        <a class="logo" href="index.html">WebIQ</a>
+        
+        <!-- Desktop Menu -->
+        <ul class="desktop-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="work.html" class="active">WORK</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><button id="contactBtn" onclick="window.location.href='index.html#contact'">CONTACT US</button></li>
+        </ul>
+        
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html">HOME</a>
+            <a href="work.html" class="active">WORK</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="index.html#contact">CONTACT US</a>
+        </div>
+    </nav>
+    
+    <div class="work-hero">
+        <div class="work-hero-content">
+            <h1>Our Work</h1>
+            <p>Explore our portfolio of successful projects and see how we've helped businesses transform their digital presence.</p>
+        </div>
+    </div>
+    
+    <div class="work-filter">
+        <h2>Filter by Category</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="web-design">Web Design</button>
+            <button class="filter-btn" data-filter="development">Development</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+            <button class="filter-btn" data-filter="marketing">Marketing</button>
+        </div>
+    </div>
+    
+    <div class="work-portfolio">
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="web-design development">
+                <div class="portfolio-image">
+                    <img src="https://images.pexels.com/photos/326504/pexels-photo-326504.jpeg" alt="E-commerce Platform">
+                    <div class="portfolio-overlay">
+                        <h3>E-commerce Platform</h3>
+                        <p>Modern online store with advanced features</p>
+                        <div class="portfolio-tags">
+                            <span>Web Design</span>
+                            <span>Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="branding marketing">
+                <div class="portfolio-image">
+                    <img src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg" alt="Brand Identity">
+                    <div class="portfolio-overlay">
+                        <h3>Brand Identity Design</h3>
+                        <p>Complete branding solution for tech startup</p>
+                        <div class="portfolio-tags">
+                            <span>Branding</span>
+                            <span>Marketing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="web-design">
+                <div class="portfolio-image">
+                    <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg" alt="Corporate Website">
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Website</h3>
+                        <p>Professional website for law firm</p>
+                        <div class="portfolio-tags">
+                            <span>Web Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="development">
+                <div class="portfolio-image">
+                    <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg" alt="Mobile App">
+                    <div class="portfolio-overlay">
+                        <h3>Mobile Application</h3>
+                        <p>Cross-platform productivity app</p>
+                        <div class="portfolio-tags">
+                            <span>Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="marketing">
+                <div class="portfolio-image">
+                    <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg" alt="Digital Campaign">
+                    <div class="portfolio-overlay">
+                        <h3>Digital Marketing Campaign</h3>
+                        <p>SEO and social media optimization</p>
+                        <div class="portfolio-tags">
+                            <span>Marketing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="web-design development">
+                <div class="portfolio-image">
+                    <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg" alt="Restaurant Website">
+                    <div class="portfolio-overlay">
+                        <h3>Restaurant Website</h3>
+                        <p>Online ordering and reservation system</p>
+                        <div class="portfolio-tags">
+                            <span>Web Design</span>
+                            <span>Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="work-cta">
+        <div class="cta-content">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Let's discuss how we can help bring your vision to life</p>
+            <button class="cta-btn" onclick="window.location.href='index.html#contact'">Get Started Today</button>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="row">
+            <div class="col1">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="work.html">WORK</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="index.html#contact">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="col2">
+                <a class="logo1" href="index.html">WebIQ</a>
+            </div>
+            <div class="col3">
+                <i class="fa-brands fa-facebook" onclick="openSocial('facebook')"></i>
+                <i class="fa-brands fa-github" onclick="openSocial('github')"></i>
+                <i class="fa-brands fa-x-twitter" onclick="openSocial('twitter')"></i>
+                <i class="fa-brands fa-linkedin" onclick="openSocial('linkedin')"></i>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | WEBIQ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    
+    <nav class="about-nav">  
+        <a class="logo" href="index.html">WebIQ</a>
+        
+        <!-- Desktop Menu -->
+        <ul class="desktop-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="work.html">WORK</a></li>
+            <li><a href="about.html" class="active">ABOUT US</a></li>
+            <li><button id="contactBtn" onclick="window.location.href='index.html#contact'">CONTACT US</button></li>
+        </ul>
+        
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html">HOME</a>
+            <a href="work.html">WORK</a>
+            <a href="about.html" class="active">ABOUT US</a>
+            <a href="index.html#contact">CONTACT US</a>
+        </div>
+    </nav>
+    
+    <div class="about-hero">
+        <div class="about-hero-content">
+            <h1>About WebIQ</h1>
+            <p>We are a passionate team of digital experts dedicated to crafting exceptional web experiences that drive business growth and user engagement.</p>
+        </div>
+    </div>
+    
+    <div class="about-story">
+        <div class="about-container">
+            <div class="story-content">
+                <h2>Our Story</h2>
+                <p>Founded in 2020, WebIQ began as a small team of passionate developers and designers who believed that every business deserves a powerful digital presence. What started as a simple idea has grown into a full-service digital agency that has helped hundreds of clients achieve their online goals.</p>
+                
+                <p>Our journey has been driven by innovation, creativity, and an unwavering commitment to delivering results that exceed expectations. We've worked with startups, established businesses, and everything in between, always bringing the same level of dedication and expertise to every project.</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>250+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>150+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>Support Available</p>
+                    </div>
+                </div>
+            </div>
+            <div class="story-image">
+                <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg" alt="Our Team at Work">
+            </div>
+        </div>
+    </div>
+    
+    <div class="about-mission">
+        <div class="mission-container">
+            <h2>Our Mission & Values</h2>
+            <div class="mission-grid">
+                <div class="mission-item">
+                    <div class="mission-icon">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>To empower businesses with innovative digital solutions that drive growth, enhance user experiences, and create lasting impact in the digital landscape.</p>
+                </div>
+                
+                <div class="mission-item">
+                    <div class="mission-icon">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>To be the leading digital agency that transforms ideas into exceptional digital experiences, setting new standards for innovation and client satisfaction.</p>
+                </div>
+                
+                <div class="mission-item">
+                    <div class="mission-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <h3>Our Values</h3>
+                    <p>Integrity, innovation, collaboration, and excellence guide everything we do. We believe in transparent communication and delivering results that matter.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="about-team">
+        <div class="team-container">
+            <h2>Meet Our Team</h2>
+            <p>Our diverse team of experts brings together years of experience in design, development, marketing, and strategy.</p>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg" alt="Sarah Johnson">
+                    </div>
+                    <div class="member-info">
+                        <h3>Sarah Johnson</h3>
+                        <p class="member-role">Creative Director</p>
+                        <p class="member-bio">With over 8 years in creative design, Sarah leads our design team with a passion for creating visually stunning and user-friendly experiences.</p>
+                        <div class="member-social">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-dribbble"></i>
+                            <i class="fa-brands fa-behance"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg" alt="Michael Chen">
+                    </div>
+                    <div class="member-info">
+                        <h3>Michael Chen</h3>
+                        <p class="member-role">Lead Developer</p>
+                        <p class="member-bio">Michael is our technical backbone, specializing in modern web technologies and ensuring our projects are built to the highest standards.</p>
+                        <div class="member-social">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-github"></i>
+                            <i class="fa-brands fa-stack-overflow"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg" alt="Emily Rodriguez">
+                    </div>
+                    <div class="member-info">
+                        <h3>Emily Rodriguez</h3>
+                        <p class="member-role">Marketing Specialist</p>
+                        <p class="member-bio">Emily drives our digital marketing strategies, helping clients reach their target audiences and achieve measurable growth.</p>
+                        <div class="member-social">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg" alt="David Thompson">
+                    </div>
+                    <div class="member-info">
+                        <h3>David Thompson</h3>
+                        <p class="member-role">Project Manager</p>
+                        <p class="member-bio">David ensures every project runs smoothly from start to finish, maintaining clear communication and delivering on time.</p>
+                        <div class="member-social">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-slack"></i>
+                            <i class="fa-brands fa-trello"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="about-cta">
+        <div class="cta-content">
+            <h2>Ready to Work Together?</h2>
+            <p>Let's discuss your project and see how we can help you achieve your digital goals</p>
+            <button class="cta-btn" onclick="window.location.href='index.html#contact'">Start Your Project</button>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="row">
+            <div class="col1">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="work.html">WORK</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="index.html#contact">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="col2">
+                <a class="logo1" href="index.html">WebIQ</a>
+            </div>
+            <div class="col3">
+                <i class="fa-brands fa-facebook" onclick="openSocial('facebook')"></i>
+                <i class="fa-brands fa-github" onclick="openSocial('github')"></i>
+                <i class="fa-brands fa-x-twitter" onclick="openSocial('twitter')"></i>
+                <i class="fa-brands fa-linkedin" onclick="openSocial('linkedin')"></i>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
