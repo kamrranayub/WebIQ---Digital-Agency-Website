@@ -2,6 +2,16 @@
 
 **WebIQ** is a fully responsive, multi-page digital agency website built using **HTML**, **CSS**, and **JavaScript**. It showcases services, portfolio, team members, and includes a fully interactive contact form. Designed with a clean layout, smooth animations, and mobile-first design principles.
 
+## 📁 Project Structure
+
+WebIQ/
+ index.html       # Homepage
+ about.html       # About the agency and team
+ work.html        # Portfolio with filtering options
+ style.css        # Global and responsive styles
+ script.js        # Interactive scripts and event handling
+ assets/          # Images by URL
+
 
 ## 🚀 Features
 
